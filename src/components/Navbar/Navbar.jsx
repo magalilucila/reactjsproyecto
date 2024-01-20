@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import CartContent from '../CartContent/CartContent'
-
+import CartWidget from '../CartWidget/CartWidget'
+import React from 'react'
 
 const Navbar = () => {
     return (
@@ -17,7 +17,7 @@ const Navbar = () => {
                     <Link className=" text-white hover:text-sky-600 md:text-xl" 
                     to={"/productos/Combo"}>Nail Art</Link>
                 </nav>
-                <CartContent />
+                <CartWidget/>
             </div>
         </header>
     )
