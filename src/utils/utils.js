@@ -1,9 +1,9 @@
-import { Mock_Data } from "../mock/data";
+import { MOCK_DATA } from "../mock/data";
 
 export const pedirDatos = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-        resolve(Mock_Data);
+        resolve(MOCK_DATA);
         }, 100);
     });
 }
